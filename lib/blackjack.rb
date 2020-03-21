@@ -2,7 +2,11 @@ require 'pry'
 
 def welcome
   # code #welcome here
+<<<<<<< HEAD
   puts "Welcome to the Blackjack Table"
+=======
+  puts 
+>>>>>>> 9e69a619490d0fd967b6dd4a3fd625961c713886
 end
 
 
@@ -27,7 +31,11 @@ end
 
 
 
+<<<<<<< HEAD
 def display_card_total(card_total)
+=======
+def display_card_total
+>>>>>>> 9e69a619490d0fd967b6dd4a3fd625961c713886
   # code #display_card_total here
   
   puts "Your cards add up to #{card_total}"
@@ -65,7 +73,11 @@ end
 
 
 
+<<<<<<< HEAD
 def end_game(card_total)
+=======
+def end_game
+>>>>>>> 9e69a619490d0fd967b6dd4a3fd625961c713886
   # code #end_game here
   
   puts "Sorry, you hit #{card_total}. Thanks for playing!"
@@ -92,7 +104,11 @@ end
 
 
 
+<<<<<<< HEAD
 def hit?(current_card_total)
+=======
+def hit?
+>>>>>>> 9e69a619490d0fd967b6dd4a3fd625961c713886
   # code hit? here
   
   prompt_user
